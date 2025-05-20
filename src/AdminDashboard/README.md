@@ -12,3 +12,7 @@ This ASP.NET Core 6 Razor Pages application serves as the starting point for the
 3. The app listens on `https://localhost:5001` by default.
 
 Refer to the [User Manual](../../docs/admin-dashboard/user-manual.md) for feature details.
+=======
+# AdminDashboard
+
+Internal admin web portal used to manage users, subscriptions and product plans. This project is expected to be implemented using ASP.NET (Blazor or MVC).
