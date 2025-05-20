@@ -8,6 +8,7 @@ Welcome to the **Subscription Framework** project! This repository is part of Ca
 
 - [About the Project](#about-the-project)
 - [Project Planning](#project-planning)
+- [Admin Dashboard Documentation](admin-dashboard/)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
