@@ -1,6 +1,6 @@
 # Welcome to Subscription Framework
 
-Welcome to the **Subscription Framework** project! This repository is part of Cadtastic Solutions and is designed to [brief purpose of the repository]. Here you will find all the documentation, code, and resources needed to get started.
+Welcome to the **Subscription Framework** project! This repository is part of Cadtastic Solutions and is designed to provide a reference implementation for managing software licenses and subscriptions using Azure and Stripe. Here you will find all the documentation, code, and resources needed to get started.
 
 ---
 
@@ -17,7 +17,7 @@ Welcome to the **Subscription Framework** project! This repository is part of Ca
 
 ## About the Project
 
-[Provide a high-level overview of the project, its goals, and its use case. Include any relevant background information.]
+The Subscription Framework demonstrates how a software vendor can securely issue and validate license keys while handling subscription billing events. It combines Azure API Management, a custom License Service, and Stripe to manage trials, pauses, cancellations, and offline grace periods. This project serves as a starting point for building a scalable licensing platform.
 
 ---
 
@@ -26,8 +26,9 @@ Welcome to the **Subscription Framework** project! This repository is part of Ca
 Follow these steps to set up and run the project locally:
 
 ### Prerequisites
-- [List required software, tools, or libraries]
-- Installation instructions for required dependencies.
+- **Git** to clone the repository.
+- **.NET 6 SDK or later** for building and running the sample code.
+- Optionally install the **Azure CLI** if you plan to deploy the services.
 
 ### Installation
 1. Clone the repository:
@@ -47,7 +48,7 @@ Follow these steps to set up and run the project locally:
 
 ## Usage
 
-[Provide instructions and examples for using the project.]
+After restoring dependencies you can run the sample License Service locally to experiment with the API and Stripe webhook handling.
 
 ### Example Usage
 ```bash
@@ -89,7 +90,7 @@ This project is licensed under the **Apache License 2.0**. See the [LICENSE](LIC
 For questions or support, please reach out to:
 - **Addam Boord**
 - Email: addam.boord@cadtasticsolutions.com
-- [Other contact info or links, e.g., issue tracker, discussion forums]
+- Open an issue on our [GitHub repository](https://github.com/Cadtastic-Solutions/Subscription-Framework/issues)
 
 ---
 Subscription Framework is maintained by Cadtastic Solutions.
