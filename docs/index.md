@@ -1,12 +1,13 @@
 # Welcome to Subscription Framework
 
-Welcome to the **Subscription Framework** project! This repository is part of Cadtastic Solutions and is designed to [brief purpose of the repository]. Here you will find all the documentation, code, and resources needed to get started.
+Welcome to the **Subscription Framework** project! This repository is part of Cadtastic Solutions and provides a reference implementation for a subscription‑based licensing system. Here you will find the source code, architecture documentation, and planning resources to help you deploy and extend the framework.
 
 ---
 
 ## Table of Contents
 
 - [About the Project](#about-the-project)
+- [Project Planning](#project-planning)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -17,7 +18,13 @@ Welcome to the **Subscription Framework** project! This repository is part of Ca
 
 ## About the Project
 
-[Provide a high-level overview of the project, its goals, and its use case. Include any relevant background information.]
+Subscription Framework provides a fully featured licensing service built on Azure. It integrates **Stripe** for billing, **Azure API Management** for key management, and a custom **License Service** to enforce online and offline validations. The goal is to give software vendors a secure, repeatable foundation for managing trials, paid plans, and feature entitlements across desktop and cloud applications.
+
+---
+
+## Project Planning
+
+Detailed planning information, including the overall scope, development phases, and a proposed timeline, is available in [Project Planning](planning.md).
 
 ---
 
@@ -26,8 +33,10 @@ Welcome to the **Subscription Framework** project! This repository is part of Ca
 Follow these steps to set up and run the project locally:
 
 ### Prerequisites
-- [List required software, tools, or libraries]
-- Installation instructions for required dependencies.
+- [Git](https://git-scm.com/) for version control
+- [.NET 6 SDK](https://dotnet.microsoft.com/download) installed
+- An Azure account with permissions to create resources
+- A Stripe account for testing billing flows
 
 ### Installation
 1. Clone the repository:
@@ -47,12 +56,13 @@ Follow these steps to set up and run the project locally:
 
 ## Usage
 
-[Provide instructions and examples for using the project.]
+After restoring dependencies you can run the sample License Service locally:
 
-### Example Usage
 ```bash
 dotnet run
 ```
+
+The service exposes basic endpoints for license validation which can be called through Azure API Management once deployed.
 
 ---
 
@@ -87,9 +97,8 @@ This project is licensed under the **Apache License 2.0**. See the [LICENSE](LIC
 ## Contact
 
 For questions or support, please reach out to:
-- **Addam Boord**
-- Email: addam.boord@cadtasticsolutions.com
-- [Other contact info or links, e.g., issue tracker, discussion forums]
+- **Addam Boord** – [addam.boord@cadtasticsolutions.com](mailto:addam.boord@cadtasticsolutions.com)
+- You can also open issues on the project repository if you encounter problems or have feature requests.
 
 ---
 Subscription Framework is maintained by Cadtastic Solutions.
