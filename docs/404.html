@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <style>
+        /* General body styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('assets/images/cadtastic-solutions.png') no-repeat center center fixed;
+            background-size: contain; /* Use contain for background scaling */
+            background-blend-mode: lighten;
+        }
+
+        /* Left-side rotated text styling (404 message) */
+        .rotated-left {
+            position: absolute;
+            top: 50%; /* Center vertically */
+            left: 30px; /* Close to the left edge */
+            transform: translateY(-50%) rotate(-90deg); /* Rotate text counterclockwise */
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Right-side rotated text styling (Oops message) */
+        .rotated-right {
+            position: absolute;
+            top: 50%; /* Center vertically */
+            right: -10px; /* Close to the right edge */
+            transform: translateY(-50%) rotate(90deg); /* Rotate text clockwise */
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        /* Centered content (Go back to homepage) */
+        .centered-content {
+            position: relative;
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /* Link styling */
+        a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .rotated-left, .rotated-right {
+                font-size: 1.5rem;
+            }
+
+            .centered-content a {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Rotated text on the left -->
+    <div class="rotated-left">404: Page Not Found</div>
+
+    <!-- Rotated text on the right -->
+    <div class="rotated-right">Oops! The page you're looking for doesn't exist.</div>
+
+    <!-- Centered link -->
+    <div class="centered-content">
+        <p><a href="/">Go back to the homepage</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+title: [Repository Name]
+description: 
+theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: GFM
+highlighter: rouge
+
+# Set custom domain URL
+url: "https://[Repository Name].cadtasticsolutions.com"
+
+# Leave baseurl empty since you're using a root domain
+baseurl: ""
+
+# Repository metadata for GitHub Pages
+repository: [Organization Name]/[Repository Name]
+
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num"
+
+# Author information
+author: "[Project Maintainer Name]"
+
+# Exclude unnecessary files from the build
+exclude:
+  - README.md
+  - .gitignore
