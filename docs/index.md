@@ -1,6 +1,6 @@
-# Welcome to [Repository Name]
+# Welcome to Subscription Framework
 
-Welcome to the **[Repository Name]** project! This repository is part of [Organization Name] and is designed to [brief purpose of the repository]. Here you will find all the documentation, code, and resources needed to get started.
+Welcome to the **Subscription Framework** project! This repository is part of Cadtastic Solutions and is designed to [brief purpose of the repository]. Here you will find all the documentation, code, and resources needed to get started.
 
 ---
 
@@ -32,15 +32,15 @@ Follow these steps to set up and run the project locally:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/[username]/[repository-name].git
+   git clone https://github.com/Cadtastic-Solutions/Subscription-Framework.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd [repository-name]
+   cd Subscription-Framework
    ```
 3. Install dependencies:
    ```bash
-   [Dependency installation command]
+   dotnet restore
    ```
 
 ---
@@ -51,7 +51,7 @@ Follow these steps to set up and run the project locally:
 
 ### Example Usage
 ```bash
-[Example command or script]
+dotnet run
 ```
 
 ---
@@ -80,16 +80,16 @@ For more details, see our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the **[License Name]**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Contact
 
 For questions or support, please reach out to:
-- **[Project Maintainer Name]**
-- Email: [email@example.com]
+- **Addam Boord**
+- Email: addam.boord@cadtasticsolutions.com
 - [Other contact info or links, e.g., issue tracker, discussion forums]
 
 ---
-[Repository Name] is maintained by [Organization Name].
+Subscription Framework is maintained by Cadtastic Solutions.
