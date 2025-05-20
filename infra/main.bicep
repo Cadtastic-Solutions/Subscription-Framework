@@ -1,3 +1,4 @@
+
 param location string = resourceGroup().location
 param namePrefix string = 'sf'
 param skuName string = 'B1'
@@ -67,4 +68,3 @@ resource apim 'Microsoft.ApiManagement/service@2022-08-01' = {
 }
 
 output functionAppEndpoint string = functionApp.properties.defaultHostName
-
