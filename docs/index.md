@@ -26,6 +26,8 @@ Subscription Framework provides a fully featured licensing service built on Azur
 
 Detailed planning information, including the overall scope, development phases, and a proposed timeline, is available in [Project Planning](planning.md).
 
+For instructions on provisioning the initial Azure resources and building the core License Service see [Environment & Core Service Setup](environment-core.md).
+
 ---
 
 ## Getting Started
