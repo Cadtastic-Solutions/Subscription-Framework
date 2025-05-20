@@ -8,6 +8,8 @@ Welcome to the **Subscription Framework** project! This repository is part of Ca
 
 - [About the Project](#about-the-project)
 - [Project Planning](#project-planning)
+- [Stripe Integration Guide](howto-stripe.md)
+- [Subscription Management Manual](user-manual-subscriptions.md)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
