@@ -1,4 +1,4 @@
-title: [Repository Name]
+title: Subscription Framework
 description: 
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
@@ -10,20 +10,20 @@ markdown: GFM
 highlighter: rouge
 
 # Set custom domain URL
-url: "https://[Repository Name].cadtasticsolutions.com"
+url: "https://subscription-framework.cadtasticsolutions.com"
 
 # Leave baseurl empty since you're using a root domain
 baseurl: ""
 
 # Repository metadata for GitHub Pages
-repository: [Organization Name]/[Repository Name]
+repository: Cadtastic-Solutions/Subscription-Framework
 
 # Pagination settings
 paginate: 5
 paginate_path: "/page:num"
 
 # Author information
-author: "[Project Maintainer Name]"
+author: "Addam Boord"
 
 # Exclude unnecessary files from the build
 exclude:
