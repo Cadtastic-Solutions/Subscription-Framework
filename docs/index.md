@@ -10,6 +10,7 @@ Welcome to the **Subscription Framework** project! This repository is part of Ca
 - [Project Planning](#project-planning)
 - [Stripe Integration Guide](howto-stripe.md)
 - [Subscription Management Manual](user-manual-subscriptions.md)
+- [Admin Dashboard Documentation](admin-dashboard/)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -27,6 +28,8 @@ Subscription Framework provides a fully featured licensing service built on Azur
 ## Project Planning
 
 Detailed planning information, including the overall scope, development phases, and a proposed timeline, is available in [Project Planning](planning.md).
+
+For instructions on provisioning the initial Azure resources and building the core License Service see [Environment & Core Service Setup](environment-core.md).
 
 ---
 

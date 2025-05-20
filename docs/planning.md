@@ -14,7 +14,7 @@ A senior engineer working approximately **20 hours per week** can deliver a mini
 2. **Stripe & Subscription Handling (3–4 weeks)** – integrate Stripe webhooks and automate license creation.
 3. **License Validation & Security (3–4 weeks)** – implement online/offline validation and secure key handling.
 4. **Admin Dashboard (3–4 weeks)** – build the internal portal for managing users and plans.
-5. **Refinements & Testing (3–4 weeks)** – add monitoring, analytics, and prepare for deployment.
+5. **Refinements & Testing (3–4 weeks)** – add monitoring, analytics, and prepare for deployment. See [Refinements & Testing](refinements-testing.md) for details.
 
 ## Development Iterations
 
