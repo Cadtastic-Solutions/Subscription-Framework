@@ -1,4 +1,4 @@
-# Software Licensing Framework on Azure – Architecture Overview
+# Software Licensing Framework - Architecture Overview
 
 ## Introduction
 
