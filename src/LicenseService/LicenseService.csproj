@@ -2,5 +2,29 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <UserSecretsId>d18f6ac1-92e8-486e-9951-3da3ab4b3c40</UserSecretsId>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="tests\LicenseService.Tests\**" />
+    <Content Remove="tests\LicenseService.Tests\**" />
+    <EmbeddedResource Remove="tests\LicenseService.Tests\**" />
+    <None Remove="tests\LicenseService.Tests\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Management.ApiManagement" Version="7.0.0-preview" />
+    <PackageReference Include="Stripe.net" Version="43.11.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="NLog" Version="5.2.8" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.8" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
